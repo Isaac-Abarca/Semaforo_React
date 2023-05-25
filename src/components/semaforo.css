@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  justify-content: space-around;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.red {
+  background-color: rgba(105, 15, 15, 0.8);
+}
+
+.red.active {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.yellow {
+  background-color: rgba(124, 124, 20, 0.8);
+}
+
+.yellow.active {
+  background-color: rgba(255, 255, 0, 0.8);
+}
+
+.green {
+  background-color: rgba(17, 107, 17, 0.8); /* Color más brillante */
+}
+
+.green.active {
+  background-color: rgba(0, 255, 0, 0.8);
+}
+
+.blue {
+  background-color: rgba(13, 27, 84, 0.8); /* Color más brillante */
+}
+
+.blue.active {
+  background-color: rgba(18, 60, 228, 0.8); 
+}
+
+.btnColor{
+    margin-top: 20px;
+}
+
+
+.cont-icon{
+    width: 100%;
+    margin-bottom: 10px;
+}
